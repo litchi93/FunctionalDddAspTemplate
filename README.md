@@ -35,3 +35,4 @@ The infrastructure layer provides the technical foundation for the system. It is
 The API layer acts as the contract between the external world and the domain. It defines the communication endpoints and handles the serialization and deserialization of data. The API layer provides a standardized way for clients to send commands and queries to the system, adhering to the domain's language and concepts.
 
 In summary, the API layer acts as the contract between the domain and the external world, the application layer implements the business logic using abstractions and follows the CQRS pattern, the domain layer represents the core business models and applies business rules, and the infrastructure layer is the ACL that translates the domain abstractions to external systems. This layered architecture with the CQRS pattern and the ACL helps separate concerns, maintain a clean design, and enable functional Domain-Driven Design practices.
+
